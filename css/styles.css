@@ -1,0 +1,49 @@
+/*  
+// MOBILE FIRST APPROACH - GENERAL STYLE FIRST
+*/
+
+/* MAIN STYLESHEET */
+
+* {    
+    box-sizing: border-box;
+}
+
+.content-width {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header section {
+    display: flex;
+    justify-content: space-between;
+}
+
+header section input {
+    height: 34px;
+    width: 456px;
+    padding: 0 12px;
+    border: 1px solid gray;
+}
+
+#logo {
+    width: 200px;
+    height: auto;
+}
+
+#logo img {
+    width: 100%;
+}
+
+.fav-navigation {
+    display: flex;
+}
+
+.fav-navigation figure {
+    width: auto;
+    height: 36px;
+}
+
+.fav-navigation figure img {
+    width: auto;
+    height: 100%;
+}
