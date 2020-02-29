@@ -36,13 +36,32 @@ header section input {
     height: 34px;
     width: 456px;
     padding: 0 12px;
+    margin-top: 10px;
     border: 1px solid gray;
+    
+}
+
+#search-bar {
+    background: white url(../img/search-icon.png) right no-repeat;
+    padding-right: 30px;
 }
 
 footer {
     background-color: #F1F3F5;
     margin: 0 auto;
     padding-top: 30px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #32B846;
+    font-size: 2em;
+    margin: .5em 0;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin-bottom: .5em;
 }
 
 #logo {
@@ -75,6 +94,10 @@ footer {
     justify-content: space-between;
 }
 
+.top-news-big {
+    margin-bottom: 20px;
+}
+
 .top-news-small-section figure {
     
 }
@@ -82,4 +105,122 @@ footer {
 .top-news-small-section figure img {
     width: 100%;
     height: auto;
+}
+
+.league-news-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.league-news-div figure {
+    margin: 0 auto;
+    width: 90%;
+    height: 270px;
+}
+
+.league-news-div figure img {
+    width: 100%;
+    height: 270px;
+    margin: 0 auto;
+}
+
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-columns section {
+    width: 47%;    
+    height: 500px;
+    overflow: scroll;
+}
+
+#table-standings img {
+    height: 20px;
+    width: auto;
+}
+
+#table-standings {
+    width: 100%;
+    color: #A0A5AA;
+    margin: 0 auto;
+}
+
+#table-standings thead {
+    background-color: #F0F2F5;
+    text-align: center;
+}
+
+#table-standings tr td { 
+text-align: center;
+}
+
+#table-standings th, table td {     
+    padding: .75em 0.25em;
+}
+
+#table-standings tr td:nth-of-type(1) {    
+    color: rgb(93, 93, 94);
+    font-weight: bold;
+}
+
+#table-standings tr td:nth-of-type(3) {    
+    text-align: left;
+}
+
+#table-standings tr td:nth-of-type(8) {    
+    color: rgb(93, 93, 94);
+    font-weight: bold;
+}
+
+#table-standings tr:nth-child(odd){ 
+    
+}
+
+#table-standings tr:nth-child(even){
+    background: rgb(238, 238, 238);
+}
+
+#table-standings tr:hover {
+    background-color: rgba(4, 47, 64, 0.3);
+    color: #fff;
+    transition: all 500ms ease-in-out;    
+}
+
+#table-matches img {
+    height: 20px;
+    width: auto;
+}
+
+#table-matches {
+    /* width: 100%; */
+    color: #A0A5AA;
+}
+
+#table-matches thead th {
+    background-color: #F0F2F5;
+    text-align: center;
+}
+
+#table-matches th, table td {     
+    padding: .75em 0.25em;
+}
+
+#table-matches tr td:nth-of-type(1) {    
+    text-align: right;
+}
+
+#table-matches tr:nth-child(odd){ 
+    
+}
+
+#table-matches tr:nth-child(even){
+    background: rgb(238, 238, 238);
+}
+
+#table-matches tr:hover {
+    background-color: rgba(4, 47, 64, 0.3);
+    color: #fff;
+    transition: all 500ms ease-in-out;    
 }

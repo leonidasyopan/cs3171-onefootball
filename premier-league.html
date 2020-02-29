@@ -11,11 +11,12 @@
     <header>
         <div class="content-width">
             <section>
-                <figure id="logo">
-                    <img src="img/one-football-logo.png" alt="Onefootball Logo">
-                </figure>
-                
-                <input type="text" placeholder="Search for teams and competitions">
+                <a href="index.html">
+                    <figure id="logo">
+                        <img src="img/one-football-logo.png" alt="Onefootball Logo">
+                    </figure>
+                </a>
+                <input type="text" id="search-bar" placeholder="Search for teams and competitions">
             </section>
             <h2>Top Leagues and Teams</h2>
             <nav class="fav-navigation">
@@ -72,19 +73,57 @@
     </header>
     <main>
         <div class="content-width">
-            <section>
-                <h2>Premier League Standings</h2>
+            <div class="two-columns">
+                <section>
+                    <h2>Premier League Standings</h2>
 
-            </section>
+                    <table id="table-standings"><thead><tr><th>#</th><th></th><th>Club</th><th> P </th><th> W </th><th> D </th><th> L </th><th>Pts</th><th>GD</th></tr></thead><tbody><tr><td>1</td><td><figure class="figure-standings"><img src="img/pl-teams/Liverpool_FC.svg" alt="Liverpool FC Thumb"></figure></td><td>Liverpool FC</td><td>27</td><td>26</td><td>1</td><td>0</td><td>79</td><td>47</td></tr><tr><td>2</td><td><figure class="figure-standings"><img src="img/pl-teams/Manchester_City_FC_badge.svg" alt="Manchester City FC Thumb"></figure></td><td>Manchester City FC</td><td>27</td><td>18</td><td>3</td><td>6</td><td>57</td><td>39</td></tr><tr><td>3</td><td><figure class="figure-standings"><img src="img/pl-teams/Leicester_City_crest.svg" alt="Leicester City FC Thumb"></figure></td><td>Leicester City FC</td><td>27</td><td>15</td><td>5</td><td>7</td><td>50</td><td>27</td></tr><tr><td>4</td><td><figure class="figure-standings"><img src="img/pl-teams/Chelsea_FC.svg" alt="Chelsea FC Thumb"></figure></td><td>Chelsea FC</td><td>27</td><td>13</td><td>5</td><td>9</td><td>44</td><td>8</td></tr><tr><td>5</td><td><figure class="figure-standings"><img src="img/pl-teams/Manchester_United_FC_crest.svg" alt="Manchester United FC Thumb"></figure></td><td>Manchester United FC</td><td>27</td><td>11</td><td>8</td><td>8</td><td>41</td><td>12</td></tr><tr><td>6</td><td><figure class="figure-standings"><img src="img/pl-teams/Tottenham_Hotspur.svg" alt="Tottenham Hotspur FC Thumb"></figure></td><td>Tottenham Hotspur FC</td><td>27</td><td>11</td><td>7</td><td>9</td><td>40</td><td>8</td></tr><tr><td>7</td><td><figure class="figure-standings"><img src="img/pl-teams/Sheffield_United_FC_logo.svg" alt="Sheffield United FC Thumb"></figure></td><td>Sheffield United FC</td><td>27</td><td>10</td><td>10</td><td>7</td><td>40</td><td>4</td></tr><tr><td>8</td><td><figure class="figure-standings"><img src="img/pl-teams/Wolverhampton_Wanderers.svg" alt="Wolverhampton Wanderers FC Thumb"></figure></td><td>Wolverhampton Wanderers FC</td><td>27</td><td>9</td><td>12</td><td>6</td><td>39</td><td>6</td></tr><tr><td>9</td><td><figure class="figure-standings"><img src="img/pl-teams/Arsenal_FC.svg" alt="Arsenal FC Thumb"></figure></td><td>Arsenal FC</td><td>27</td><td>8</td><td>13</td><td>6</td><td>37</td><td>3</td></tr><tr><td>10</td><td><figure class="figure-standings"><img src="img/pl-teams/Burnley_F.C._Logo.svg" alt="Burnley FC Thumb"></figure></td><td>Burnley FC</td><td>27</td><td>11</td><td>4</td><td>12</td><td>37</td><td>-6</td></tr><tr><td>11</td><td><figure class="figure-standings"><img src="img/pl-teams/Everton_FC_logo.svg" alt="Everton FC Thumb"></figure></td><td>Everton FC</td><td>27</td><td>10</td><td>6</td><td>11</td><td>36</td><td>-5</td></tr><tr><td>12</td><td><figure class="figure-standings"><img src="img/pl-teams/FC_Southampton.svg" alt="Southampton FC Thumb"></figure></td><td>Southampton FC</td><td>27</td><td>10</td><td>4</td><td>13</td><td>34</td><td>-14</td></tr><tr><td>13</td><td><figure class="figure-standings"><img src="img/pl-teams/Crystal_Palace_FC_logo.svg" alt="Crystal Palace FC Thumb"></figure></td><td>Crystal Palace FC</td><td>27</td><td>8</td><td>9</td><td>10</td><td>33</td><td>-8</td></tr><tr><td>14</td><td><figure class="figure-standings"><img src="img/pl-teams/Newcastle_United_Logo.svg" alt="Newcastle United FC Thumb"></figure></td><td>Newcastle United FC</td><td>27</td><td>8</td><td>7</td><td>12</td><td>31</td><td>-17</td></tr><tr><td>15</td><td><figure class="figure-standings"><img src="img/pl-teams/Brighton_&amp;_Hove_Albion_logo.svg" alt="Brighton &amp; Hove Albion FC Thumb"></figure></td><td>Brighton &amp; Hove Albion FC</td><td>27</td><td>6</td><td>10</td><td>11</td><td>28</td><td>-7</td></tr><tr><td>16</td><td><figure class="figure-standings"><img src="img/pl-teams/AFC_Bournemouth_(2013).svg" alt="AFC Bournemouth Thumb"></figure></td><td>AFC Bournemouth</td><td>27</td><td>7</td><td>5</td><td>15</td><td>26</td><td>-17</td></tr><tr><td>17</td><td><figure class="figure-standings"><img src="img/pl-teams/Aston_Villa_logo.svg" alt="Aston Villa FC Thumb"></figure></td><td>Aston Villa FC</td><td>27</td><td>7</td><td>4</td><td>16</td><td>25</td><td>-18</td></tr><tr><td>18</td><td><figure class="figure-standings"><img src="img/pl-teams/West_Ham_United_FC_logo.svg" alt="West Ham United FC Thumb"></figure></td><td>West Ham United FC</td><td>27</td><td>6</td><td>6</td><td>15</td><td>24</td><td>-16</td></tr><tr><td>19</td><td><figure class="figure-standings"><img src="img/pl-teams/Watford.svg" alt="Watford FC Thumb"></figure></td><td>Watford FC</td><td>27</td><td>5</td><td>9</td><td>13</td><td>24</td><td>-19</td></tr><tr><td>20</td><td><figure class="figure-standings"><img src="img/pl-teams/Norwich_City.svg" alt="Norwich City FC Thumb"></figure></td><td>Norwich City FC</td><td>27</td><td>4</td><td>6</td><td>17</td><td>18</td><td>-27</td></tr></tbody></table><p id="legends"><strong>P</strong> = Played, <strong>W</strong> = Won, <strong>D</strong> = Draw, <strong>L</strong> = Lost, <strong>Pts</strong> = Points</p>
+                    
+                </section>
 
-            <section>
-                <h2>This Week's Matches</h2>
-                
-            </section>
+                <section>
+                    <h2>This Week's Matches</h2>
+
+
+                    <table id="table-matches"><thead><tr><th>Date/Time</th><th>Home</th><th></th><th></th><th>X</th><th></th><th></th><th>Away</th></tr></thead><tbody><tr><td>Feb 28 at 5:00 PM</td><td>Norwich</td><td><figure class="figure-matches"><img src="img/pl-teams/Norwich_City.svg" alt="undefined Thumb"></figure></td><td> </td><td> X </td><td> </td><td><figure class="figure-matches"><img src="img/pl-teams/Leicester_City_crest.svg" alt="undefined Thumb"></figure></td><td>Leicester</td></tr><tr><td>Feb 29 at 9:30 AM</td><td>Brighton</td><td><figure class="figure-matches"><img src="img/pl-teams/Brighton_&amp;_Hove_Albion_logo.svg" alt="undefined Thumb"></figure></td><td> </td><td> X </td><td> </td><td><figure class="figure-matches"><img src="img/pl-teams/Crystal_Palace_FC_logo.svg" alt="undefined Thumb"></figure></td><td>Crystal Palace</td></tr><tr><td>Feb 29 at 12:00 PM</td><td>Aston Villa</td><td><figure class="figure-matches"><img src="img/pl-teams/Aston_Villa_logo.svg" alt="undefined Thumb"></figure></td><td> </td><td> X </td><td> </td><td><figure class="figure-matches"><img src="img/pl-teams/Sheffield_United_FC_logo.svg" alt="undefined Thumb"></figure></td><td>Sheffield United</td></tr><tr><td>Feb 29 at 12:00 PM</td><td>Newcastle</td><td><figure class="figure-matches"><img src="img/pl-teams/Newcastle_United_Logo.svg" alt="undefined Thumb"></figure></td><td> </td><td> X </td><td> </td><td><figure class="figure-matches"><img src="img/pl-teams/Burnley_F.C._Logo.svg" alt="undefined Thumb"></figure></td><td>Burnley</td></tr><tr><td>Feb 29 at 12:00 PM</td><td>West Ham</td><td><figure class="figure-matches"><img src="img/pl-teams/West_Ham_United_FC_logo.svg" alt="undefined Thumb"></figure></td><td> </td><td> X </td><td> </td><td><figure class="figure-matches"><img src="img/pl-teams/FC_Southampton.svg" alt="undefined Thumb"></figure></td><td>Southampton</td></tr><tr><td>Feb 29 at 12:00 PM</td><td>Bournemouth</td><td><figure class="figure-matches"><img src="img/pl-teams/AFC_Bournemouth_(2013).svg" alt="undefined Thumb"></figure></td><td> </td><td> X </td><td> </td><td><figure class="figure-matches"><img src="img/pl-teams/Chelsea_FC.svg" alt="undefined Thumb"></figure></td><td>LiverChelseapool</td></tr><tr><td>Feb 29 at 2:30 PM</td><td>Watford</td><td><figure class="figure-matches"><img src="img/pl-teams/Watford.svg" alt="undefined Thumb"></figure></td><td> </td><td> X </td><td> </td><td><figure class="figure-matches"><img src="img/pl-teams/Liverpool_FC.svg" alt="undefined Thumb"></figure></td><td>Liverpool</td></tr><tr><td>Mar 1 at 11:00 AM</td><td>Manchester City</td><td><figure class="figure-matches"><img src="img/pl-teams/Manchester_City_FC_badge.svg" alt="undefined Thumb"></figure></td><td> </td><td> X </td><td> </td><td><figure class="figure-matches"><img src="img/pl-teams/Arsenal_FC.svg" alt="undefined Thumb"></figure></td><td>Arsenal</td></tr><tr><td>Mar 1 at 11:00 AM</td><td>Tottenham Hotspur</td><td><figure class="figure-matches"><img src="img/pl-teams/Tottenham_Hotspur.svg" alt="undefined Thumb"></figure></td><td> </td><td> X </td><td> </td><td><figure class="figure-matches"><img src="img/pl-teams/Wolverhampton_Wanderers.svg" alt="undefined Thumb"></figure></td><td>Wolverhampton</td></tr><tr><td>Mar 1 at 11:00 AM</td><td>Everton</td><td><figure class="figure-matches"><img src="img/pl-teams/Everton_FC_logo.svg" alt="undefined Thumb"></figure></td><td> </td><td> X </td><td> </td><td><figure class="figure-matches"><img src="img/pl-teams/Manchester_United_FC_crest.svg" alt="undefined Thumb"></figure></td><td>Manchester United</td></tr></tbody></table>
+                    
+                </section>
+            </div>
 
             <section>
                 <h2>Top News</h2>
-                
+                <div class="league-news-div">
+                    <a href="">
+                        <figure class="premier-league-news">
+                            <img src="img/pl-news-01.png" alt="Premier League News 01">
+                        </figure>
+                    </a>
+                    <a href="">
+                        <figure class="premier-league-news">
+                            <img src="img/pl-news-02.png" alt="Premier League News 02">
+                        </figure>
+                    </a>
+                    <a href="">
+                        <figure class="premier-league-news">
+                            <img src="img/pl-news-03.png" alt="Premier League News 03">
+                        </figure>
+                    </a>
+                    <a href="">
+                        <figure class="premier-league-news">
+                            <img src="img/pl-news-04.png" alt="Premier League News 04">
+                        </figure>
+                    </a>
+                    <a href="">
+                        <figure class="premier-league-news">
+                            <img src="img/pl-news-05.png" alt="Premier League News 05">
+                        </figure>
+                    </a>
+                    <a href="">
+                        <figure class="premier-league-news">
+                            <img src="img/pl-news-06.png" alt="Premier League News 06">
+                        </figure>
+                    </a>
+                </div>
             </section>          
         </div>
     </main>
