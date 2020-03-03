@@ -20,6 +20,19 @@ body {
     margin: 0 auto;
 }
 
+footer {
+    background-color: #F1F3F5;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #32B846;
+    font-size: 2em;
+    margin: .5em 0;
+}
+
 main {
     background-color: #FFFFFF; 
     background-image: linear-gradient(#F1F3F5, #FFFFFF);
@@ -32,11 +45,15 @@ header section {
     justify-content: space-between;
 }
 
+header {
+    height: 260px;
+}
+
 header section input {
     height: 34px;
     width: 456px;
     padding: 0 12px;
-    margin-top: 15px;
+    margin-top: 20px;
     border: 1px solid gray;
     
 }
@@ -44,19 +61,6 @@ header section input {
 #search-bar {
     background: white url(../img/search-icon.png) right no-repeat;
     padding-right: 30px;
-}
-
-footer {
-    background-color: #F1F3F5;
-    margin: 0 auto;
-    padding-top: 30px;
-}
-
-h2 {
-    text-transform: uppercase;
-    color: #32B846;
-    font-size: 2em;
-    margin: .5em 0;
 }
 
 header section {
@@ -95,6 +99,7 @@ header h2 {
 
 .fav-navigation a {
     text-decoration: none;
+    font-size: .85em;
 }
 
 .fav-navigation figure img {
@@ -256,4 +261,37 @@ text-align: center;
     background-color: rgba(4, 47, 64, 0.3);
     color: #fff;
     transition: all 500ms ease-in-out;    
+}
+
+
+
+
+
+/***********************
+****** SCROLLBAR *******
+***********************/
+.two-columns section {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* width */
+.two-columns section::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.two-columns section::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+    border-radius: 1px;
+}
+
+/* Handle */
+.two-columns section::-webkit-scrollbar-thumb {
+    background: rgb(98, 233, 118);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.two-columns section::-webkit-scrollbar-thumb:hover {
+    background: #32B846;
 }
