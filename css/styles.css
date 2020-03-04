@@ -20,6 +20,22 @@ body {
     margin: 0 auto;
 }
 
+.warning-message {
+    background-color: red;
+    color: #FFFFFF;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 35vh;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.warning-message h3 {
+    margin-top: 30px;
+}
+
 footer {
     background-color: #F1F3F5;
     margin: 0 auto;
@@ -105,7 +121,17 @@ header h2 {
 .fav-navigation figure img {
     width: auto;
     height: 36px;
-    vertical-align: middle;
+    vertical-align: middle;    
+}
+
+.fav-navigation figure:hover {
+    box-shadow: 0.3px 0.3px 20px #bbbbbb;
+    transition: all 500ms ease-in-out;  
+}
+
+.fav-navigation figure:hover img {
+    transform: scale(1.2);
+    transition: all 500ms ease-in-out;  
 }
 
 .fav-navigation figure figcaption {
@@ -294,4 +320,5 @@ text-align: center;
 /* Handle on hover */
 .two-columns section::-webkit-scrollbar-thumb:hover {
     background: #32B846;
+    transition: all 500ms ease-in-out;  
 }
