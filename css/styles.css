@@ -30,6 +30,7 @@ body {
     top: 35vh;
     text-align: center;
     font-size: 1.5em;
+    z-index: 200;
 }
 
 .warning-message h3 {
@@ -181,12 +182,19 @@ header h2 {
     margin: 0 auto;
     width: 90%;
     height: 270px;
+    overflow: hidden;
 }
 
 .league-news-div figure img {
     width: 100%;
     height: 270px;
-    margin: 0 auto;
+    margin: 0 auto;    
+}
+
+.league-news-div figure:hover img {
+    transform: scale(1.03);
+    transition: all 800ms ease-in;
+    z-index: 0;
 }
 
 .two-columns {
@@ -289,15 +297,11 @@ text-align: center;
     transition: all 500ms ease-in-out;    
 }
 
-
-
-
-
 /***********************
 ****** SCROLLBAR *******
 ***********************/
 .two-columns section {
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 /* width */
