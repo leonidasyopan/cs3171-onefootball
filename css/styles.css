@@ -37,6 +37,10 @@ body {
     margin-top: 30px;
 }
 
+tr[data-href] {
+    cursor: pointer;
+}
+
 footer {
     background-color: #F1F3F5;
     margin: 0 auto;
@@ -217,6 +221,16 @@ header h2 {
     width: 100%;
     color: #A0A5AA;
     margin: 0 auto;
+}
+
+#table-standings a {
+    text-decoration: none;
+    color: #A0A5AA;
+}
+
+#table-standings a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
 }
 
 #table-standings thead {
