@@ -311,6 +311,52 @@ text-align: center;
     transition: all 500ms ease-in-out;    
 }
 
+.versus-main h2 {
+    text-align: center;
+}
+
+.match-information {
+    display: flex;
+}
+
+.field-section {
+    margin-top: -40px;
+    width: 45%;
+    transform: perspective(50em) rotateX(20deg);
+}
+
+.reserve-players-list {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.reserve-players-list  ul {
+    list-style-type: none;
+}
+
+.reserve-players-list span {
+    font-weight: bold;
+    width: 20px;
+}
+
+.reserve-players-list ul li:nth-of-type(8) {
+    font-weight: bold;
+}
+
+.field-section {
+    margin-bottom: 50px;
+}
+
+.reserve-players-list .away-team ul li{
+    text-align: right;
+}
+
+.field-section figure img {
+    width: 90%;
+}
+
 /***********************
 ****** SCROLLBAR *******
 ***********************/
