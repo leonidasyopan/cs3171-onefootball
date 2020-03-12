@@ -75,8 +75,8 @@ header section input {
     width: 456px;
     padding: 0 12px;
     margin-top: 20px;
-    border: 1px solid gray;
-    
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
 }
 
 #search-bar {
@@ -317,16 +317,23 @@ text-align: center;
 
 .match-information {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.match-information section:nth-of-type(2) {
+    width: 45%;
 }
 
 .field-section {
     margin-top: -40px;
     width: 45%;
     transform: perspective(50em) rotateX(20deg);
+    margin-bottom: 50px;
 }
 
 .reserve-players-list {
-    width: 40%;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
@@ -345,10 +352,6 @@ text-align: center;
     font-weight: bold;
 }
 
-.field-section {
-    margin-bottom: 50px;
-}
-
 .reserve-players-list .away-team ul li{
     text-align: right;
 }
@@ -356,6 +359,25 @@ text-align: center;
 .field-section figure img {
     width: 90%;
 }
+
+.match-information h3 {
+    text-align: center;
+}
+
+.match-information table {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.match-information th, table td {     
+    padding: .25em 0.25em;
+}
+
+.match-information table img {
+    height: 30px;
+    width: auto;
+}
+
 
 /***********************
 ****** SCROLLBAR *******
