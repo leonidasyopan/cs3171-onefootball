@@ -20,6 +20,20 @@ body {
     margin: 0 auto;
 }
 
+#close {
+    float:right;
+    display:inline-block;
+    padding:0 7px 1px 7px;
+    background:rgb(255, 255, 255);
+    color: #ccc;
+}
+
+span#close:hover {
+    cursor: pointer;
+    background:#ccc;
+    color:#fff;
+}
+
 .warning-message {
     background-color: red;
     color: #FFFFFF;
@@ -35,6 +49,27 @@ body {
 
 .warning-message h3 {
     margin-top: 30px;
+}
+
+.message-box {
+    background-color: rgb(255, 100, 100);
+    color: #FFFFFF;
+    padding: 10px;
+    position: fixed;
+    width: 350px;
+    height: 250px;
+    left: 1vw;
+    bottom: 0;
+    z-index: 200;
+    text-align: center;
+    font-size: 1em;
+}
+
+.message-box h2 {
+    color: #FFFFFF;
+    margin: 0;
+    padding-bottom: 0;
+    
 }
 
 tr[data-href] {
