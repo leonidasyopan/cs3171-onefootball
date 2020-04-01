@@ -176,7 +176,7 @@ header h2 {
 
 .fav-navigation figure figcaption {
     margin-top: -30px;    
-    color: gray;
+    color: #222222;
 }
 
 .fav-navigation a:nth-of-type(5) figure {
@@ -254,7 +254,7 @@ header h2 {
 
 #table-standings {
     width: 100%;
-    color: #A0A5AA;
+    color: rgb(34, 34, 34);
     margin: 0 auto;
 }
 
@@ -316,7 +316,7 @@ text-align: center;
 
 #table-matches {
     /* width: 100%; */
-    color: #A0A5AA;
+    color: rgb(34, 34, 34);
 }
 
 #table-matches thead th {
